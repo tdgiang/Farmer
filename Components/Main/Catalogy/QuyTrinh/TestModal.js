@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Modal, Text, TouchableOpacity, View, Alert} from 'react-native';
-import CongViec from './TestShape';
+import CongViec from './Shape';
 import ModalChild from './Modal';
 
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import {CheckBox} from 'native-base';
-import { switchCase } from '@babel/types';
+import { View, Text} from 'react-native';
+
 
 
 export default class Test extends Component {
@@ -24,18 +23,12 @@ export default class Test extends Component {
             return ('#9E9E9E')  //bỏ qua
 
     }
-    setCheck(status)
-    {
-        if(status=='2' || status=="3"  )
-            return(true)
-        else
-            return(false)
-    }
+
 
 
     render() {
         const color = this.setColor(this.props.item.status);
-        const check=this.setCheck(this.props.item.status);
+        
         return (
             <View
             >

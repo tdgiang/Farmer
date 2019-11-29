@@ -12,6 +12,7 @@ export default class Body extends Component{
                 <View style={{height:250}}>
                     <View style={styles.row}>
                         <View style={styles.col}>
+
                             <TouchableOpacity onPress={()=>{this.props.navigation.push('QuyTrinh')}}>
                                 <ImageBackground style={styles.img}  source={require('../../../images/buoi.jpg')}>
                                 <View style={styles.down}>
@@ -25,13 +26,13 @@ export default class Body extends Component{
                         </View>
                         <View style={styles.col}>
                             <TouchableOpacity>
-                            <ImageBackground style={styles.img}  source={require('../../../images/ngo.jpg')}>
-                            <View style={styles.down}>
-                                <View style={styles.content}>
-                                    <Text style={styles.txt}>Ngô</Text>
+                                <ImageBackground style={styles.img}  source={require('../../../images/ngo.jpg')}>
+                                <View style={styles.down}>
+                                    <View style={styles.content}>
+                                        <Text style={styles.txt}>Ngô</Text>
+                                    </View>
                                 </View>
-                            </View>
-                            </ImageBackground>
+                                </ImageBackground>
                             </TouchableOpacity>
                             
                         </View>

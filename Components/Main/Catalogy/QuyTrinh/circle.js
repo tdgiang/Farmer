@@ -22,6 +22,8 @@ export default class Circle extends Component{
                     <Icon type='FontAwesome' name='check'
                         style={{fontSize: 40, color: 'white'}}
                     />
+                    
+
                      </View>
                 </View>
         )

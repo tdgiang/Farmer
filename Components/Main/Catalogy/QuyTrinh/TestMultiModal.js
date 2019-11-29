@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, TouchableHighlight, View, Alert,FlatList} from 'react-native';
 import ModalExample from './TestModal';
-import Data from '../../../../data//dataTest';
+import Data from '../../../../data/CongViec';
 
 
 

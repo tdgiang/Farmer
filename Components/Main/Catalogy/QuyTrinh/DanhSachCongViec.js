@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
-import {View,ScrollView,FlatList} from 'react-native';
-import Item from './TestShapes'
-import Data from '../../../../data/dataTest';
+import {View,FlatList} from 'react-native';
+import Item from './Shapes'
+import Data from '../../../../data/CongViec';
 
 
 export default class ListTest extends Component{
